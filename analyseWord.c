@@ -59,7 +59,7 @@ char *keyword[] = {"auto","double","int","struct","break","else","long","switch"
          "signed","void","default","goto","sizeof","volatile","do","while","static","if"};
 
 bool search(char word[]){ //做关键字的判断
-   printf("%s\n", word);
+   // printf("%s\n", word);
    for (int i = 0; i < sizeof(keyword)/sizeof(char *); ++i)
    {
      if(strcmp(keyword[i], word) == 0){
